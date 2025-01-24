@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="stylesheet" href="price.css" />
+<title>focustripod_vz</title>
+</head>
+<body>
+    <header class="header" id="home">
+        <nav>
+            <div class="navheader">
+                <div class="navlogo">
+                    <a href="#">
+                        <img src="./assets/logo-light-removebg-preview.png" alt="logo" >
+                    </a>
+                </div>
+                <div class="navmenubtn" id="menubtn">
+                    <i class="ri-menu-line"></i>
+                    
+                </div>
+            </div>
+            <ul class="navlinks" id="navlinks">
+                <li><a href="http://127.0.0.1:3000/focustripod/index.html#">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#service">Service</a></li>
+                <li class="navlogo">
+                    <a href="#">
+                        <img src="./assets/logo-light-removebg-preview.png"  alt="logo">
+                    </a>
+                </li>
+                <li><a href="#client">Client</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <h1 class="topic">Quick Quote</h1>
+        <div class="pricecontainer">
+            <input type="text" class="input" id="name" placeholder="Name">
+            <p class="fadetext">Name</p>
+            <input type="text" class="input" id="contact" placeholder="Contact">
+            <p class="fadetext">Contact</p>
+            <input type="text" class="input" id="event" placeholder="Category">
+            <p class="fadetext">E.g Event</p>
+            <input type="text" class="input" id="pictures" placeholder="Pic no.">
+            <p class="fadetext">1. 10 pictures R220</p>
+            <p class="fadetext">2. 25 pictures R450</p>
+            <p class="fadetext">3. 50 pictures R900</p>
+            <input type="text" class="input" id="video" placeholder="Vid no.">
+            <p class="fadetext">1. 30 sec R700</p>
+            <p class="fadetext">2. 1 min R1500</p>
+            <p class="fadetext">3. 3 min R2200</p>
+            <input type="text" class="input" id="date" placeholder="Date">
+            <p class="fadetext">Write the date</p>
+            <input type="text" class="input" id="time" placeholder="Time">
+            <p class="fadetext">Write the time</p>
+            <h2>Total</h2><h1 id="total">-</h1>
+            <br>
+            <button class="buttonprice" onclick="calculator()">Quote</button>
+            <br>
+            <div class="">
+            <p  id="para"></p>
+            
+            
+        </div>
+        </div>
+    </header>
+
+
+
+    <footer id="contact">
+        <div class="sectioncontainer footercontainer">
+            <div class="footercol">
+                <img src="./assets/logo-dark-removebg-preview.png" alt="logo">
+                <div class="footersocials">
+                    <a href="#"><i class="ri-facebook-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-fill"></i></a>
+                    <a href="#"><i class="ri-tiktok-fill"></i></a>
+                    <a href="#"><i class="ri-youtube-fill"></i></a>
+                    <a href="#"><i class="ri-whatsapp-fill"></i></a>
+                    
+                </div>
+            </div>
+            <div class="footercol">
+                <ul class="footerlinks">
+                    <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#service">Service</a></li>
+                
+                <li><a href="#client">Client</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+
+
+
+
+
+            
+            <div class="footercol">
+                <h4>Stay in touch</h4>
+                <p>
+                    To stay up-to-date with all our latest posts on focustripod_vz, follow these social media platforms and subscribe to our youtube channel for all film production
+                </p>
+            </div>
+        </div>
+        <div class="footerbar">
+            Copyright 2025 focustripod_vz. All rights reserved
+        </div>
+    </footer>
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="price.js"></script>
+</body>
+</html>
